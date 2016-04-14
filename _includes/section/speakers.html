@@ -1,0 +1,20 @@
+{% if site.sections.speakers %}
+
+  <!-- SPEAKERS -->
+<section class='palestrantes' id='palestrantes'>
+  <div class='container'>
+      <h2>Palestrantes</h2>
+      {% for speaker in site.speakers %}
+      <div class='col-sm-4'>
+          <div class='card'>
+              <a href="{{ speaker.url }}" target="_blank">
+                  <img src="{{ speaker.photo }}" alt="{{ speaker.name }}" class="img-responsive friend-logo" />
+              </a>
+          </div>
+      </div>
+      {% endfor %}
+  </div>
+</section>
+  <!-- / SPEAKERS -->
+
+{% endif %}
