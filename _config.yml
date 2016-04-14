@@ -31,7 +31,7 @@ sections:
   about: true
   c4p: false
   location: true
-  speakers: false
+  speakers: true
   schedule: false
   sponsors: true
   partners: true
@@ -40,31 +40,31 @@ sections:
 
 # Organizers list
 organizers:
-  - 
+  -
     name: "GDG Aracaju"
     photo: "./img/partners/gdgaracaju.png"
     url: "http://site.gdgaracaju.com.br/"
     bio: ""
     company: ""
-  - 
+  -
     name: "Erick Mendonça"
     photo: "./img/speakers/erick_mendonca.jpg"
     url: "http://github.com/erickmendonca"
     bio: "Formando na Universidade Federal de Sergipe e possui experiência como desenvolvedor e analista de sistemas. Co-organizador do Google Developer Group Aracaju, busca compartilhar conhecimento e aperfeiçoar a comunidade local de desenvolvedores e empreendedores através de eventos técnicos e encontros descontraídos para incentivar o crescimento e a empatia da comunidade local."
     company: "UFS"
-  - 
+  -
     name: "Fernando Mendonça"
     photo: "./img/speakers/fernando.jpg"
     url: "http://github.com/erickmendonca"
     bio: ""
     company: ""
-  - 
+  -
     name: "Raphael Pantaleão"
     photo: "./img/speakers/raphael.jpg"
     url: "http://github.com/raphaelpanta"
     bio: ""
     company: ""
-  - 
+  -
     name: "Roberto Brandini"
     photo: "./img/speakers/roberto_brandini.jpg"
     url: "https://www.facebook.com/roberto.brandini"
@@ -73,35 +73,12 @@ organizers:
 
 # Speakers list
 speakers:
-  - 
-    name: "Breno Moura"
-    url: "https://github.com/basmoura"
-    photo: "./img/speakers/breno_moura.jpg"
-  - 
-    name: "Euler Neto"
-    photo: "./img/speakers/euler_neto.jpg"
+  -
+    name: "Dennison Souza"
     url: ""
-  - 
-    name: "Fernando Mendonça"
-    url: "https://github.com/fernandomalmeida"
-    photo: "./img/speakers/fernando.jpg"
-  - 
-    name: "Hugo Dória"
-    photo: "./img/speakers/hugo_doria.jpg"
-    url: "https://github.com/hdoria"
-  - 
-    name: "Ítalo Marcel"
-    photo: "./img/speakers/italo_marcel.jpg"
-    url: ""
-  - 
-    name: "Lucas Xavier"
-    photo: "./img/speakers/lucas_xavier.jpg"
-    url: ""
-  - 
-    name: "Ygor César"
-    photo: "./img/speakers/ygor.jpg"
-    url: ""
-    
+    photo: "./img/speakers/dennison_souza.jpg"
+    title: "Docker container engine"
+    details: "Docker permite vocÊ empacotar uma aplicação com todas as suas dependências em uma unidade de desenvolmento software padronizado. Dennisson Souza mostrará como Containers Docker engloba tudo que é preciso para rodar um software e garantir que o software rodará corretamente mesmo em diferentes ambientes."
 
 # Schedule
 schedule:
@@ -113,7 +90,7 @@ schedule:
     agenda:
       -
         name: "Segurança no Android"
-        time: 
+        time:
           start: "14:00"
           end: "15:00"
         description: ""
@@ -123,7 +100,7 @@ schedule:
           url: ""
       -
         name: "Firebase e Android"
-        time: 
+        time:
           start: "15:00"
           end: "16:00"
         description: ""
@@ -133,7 +110,7 @@ schedule:
           url: ""
       -
         name: "A confirmar :)"
-        time: 
+        time:
           start: "16:30"
           end: "17:30"
         description: ""
@@ -141,14 +118,14 @@ schedule:
           name: "Ítalo Marcel"
           photo: "./img/speakers/italo_marcel.jpg"
           url: ""
-  - 
+  -
     day: "1903"
     name: "19/03 a 16/04"
     description: "Android para Iniciantes"
     agenda:
-      - 
+      -
         name: "Curso e grupo de estudos"
-        time: 
+        time:
           start: "13:00"
           end: "18:00"
         description: ""
@@ -156,14 +133,14 @@ schedule:
           name: "Facilitador: Italo Marcel"
           url: ""
           photo: "./img/speakers/italo_marcel.jpg"
-  - 
+  -
     day: "1203"
     name: "12/03 Talks #1"
     description: "Abertura do Android Jam: palestras, inscrição para grupo de estudos e confraternização!"
     agenda:
-      - 
+      -
         name: "Abertura"
-        time: 
+        time:
           start: "14:00"
           end: "14:30"
         description: "Abertura do evento, credenciamento e apresentação do Android Study Jams 2016"
@@ -171,9 +148,9 @@ schedule:
           name: "GDG Aracaju"
           url: "http://site.gdgaracaju.com.br/"
           photo: "./img/gdg.png"
-      - 
+      -
         name: "Internet das Coisas e os Smartphones"
-        time: 
+        time:
           start: "14:30"
           end: "15:30"
         description: "Nesta palestra serão apresentados os conceitos de Internet das Coisas, algumas aplicações que podem se beneficiar com a Internet das Coisas e onde os smartphones podem se encaixar nessa aplicações."
@@ -181,9 +158,9 @@ schedule:
           name: "Fernando Mendonça"
           url: "https://github.com/fernandomalmeida"
           photo: "./img/speakers/fernando.jpg"
-      - 
+      -
         name: "Coffee-break"
-        time: 
+        time:
           start: "15:30"
           end: "16:00"
         description: "Pausa para o lanche, café e bate-papo"
@@ -191,9 +168,9 @@ schedule:
           name: "GDG Aracaju"
           url: "http://site.gdgaracaju.com.br/"
           photo: "./img/gdg.png"
-      - 
+      -
         name: "Folkes: Minerando dados no Instagram"
-        time: 
+        time:
           start: "16:00"
           end: "17:00"
         description: "Muita gente, mas muita gente mesmo tem conta em alguma rede social e o Instagram é uma das favoritas. Mas será que as pessoas sabem do que os dados que elas fornecem para a rede social de fotos é capaz de fazer? Nesse talk vou mostrar um pouco sobre como é legal manipular esses dados e quais informações eles podem nos retornar, por exemplo: o melhor horário de postar uma foto, o melhor dia da semana, quem mais curte suas fotos, se a suas fotos com filtros tem mais likes do que as sem filtros e por ai vamos :)"
@@ -201,9 +178,9 @@ schedule:
           name: "Breno Moura"
           url: "https://github.com/basmoura"
           photo: "./img/speakers/breno_moura.jpg"
-      - 
+      -
         name: "Como a Popcode constrói seus apps - Erros e Acertos"
-        time: 
+        time:
           start: "17:00"
           end: "18:00"
         description: "Veja como foi a nossa experiência construindo aplicativos: como trabalhamos, como atender 1 milhão de usuários e dicas do que fazer (e não fazer) na sua startup."
