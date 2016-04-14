@@ -65,7 +65,7 @@ a:visited {
 }
 
 a.btn-danger {
-    background: #388E3C;
+    background: #607D8B;
     color: #FFFFFF;
     border: 0;
     border-radius: 3px;
@@ -73,7 +73,7 @@ a.btn-danger {
 }
 
 a.btn-danger:hover {
-    background: #CDDC39;
+    background: #CFD8DC;
     color: #212121;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -87,7 +87,7 @@ a.btn-danger:hover {
 }
 
 .navbar {
-    background-color: #388E3C;
+    background-color: #607D8B;
     border-bottom: none;
     font-size: 32px;
     box-shadow: 0 0 0px #000000;
@@ -143,7 +143,6 @@ section h2 {
 }
 
 .friend-logo {
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -336,7 +335,7 @@ section.main {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .localizacao {
-    background-color: #CDDC39;
+    background-color: #607D8B;
     padding: 0 0 60px;
     overflow: hidden;
     min-height: 350px;
@@ -383,14 +382,14 @@ section.main {
 
 .organizacao {
     color: #FFFFFF;
-    background-color: #39DC71;
+    background-color: #CFD8DC;
     min-height: 330px;
     padding-bottom: 44px;
 }
 
 .palestrantes {
     color: #FFFFFF;
-    background-color: #1C6D38;
+    background-color: #90A4AE;
     min-height: 330px;
     padding-bottom: 44px;
 }
@@ -401,11 +400,12 @@ section.main {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .parceiros {
-    color: #333;
-    background-color: #F5F5F5;
+    color: #FFFFFF;
+    background-color: #607D8B;
     min-height: 330px;
     padding-bottom: 44px;
 }
+
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 *
 * PATROCINADORES SECTION
@@ -414,7 +414,7 @@ section.main {
 
 .patrocinadores {
     color: #FFFFFF;
-    background-color: #4CAF50;
+    background-color: #78909C;
     min-height: 330px;
     padding-bottom: 44px;
 }
@@ -484,4 +484,32 @@ footer h1 {
 .img-grayscale-inverse {
     -webkit-transition: all 1s ease;
     -webkit-filter: grayscale(0);
+}
+
+.list {margin: 0; padding: 0;
+  margin: 20px;
+}
+
+.list > ul {
+  list-style-type: none;
+  width: 100%;
+  background-color: #607D8B;
+}
+
+.list > h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+
+.list ul > li img {
+  float: left;
+  margin: 15px 15px 0 0;
+}
+
+.list ul > li p {
+  font: 200 18px/1.5 Georgia, Times New Roman, serif;
+}
+
+.list ul > li {
+  padding: 10px;
+  overflow: auto;
 }

@@ -66,7 +66,7 @@ function init() {
             mustShake = true
         } else if (distanceY < shrinkOn && mustShake==true) {
             document.getElementById("logo-evento").src = "img/logo.png";
-          $('.navbar').animate({'backgroundColor':'#388E3C', boxShadow : "0 0 0px 0px rgba(100,100,200,0.4)"}, 600)
+          $('.navbar').animate({'backgroundColor':'#607D8B', boxShadow : "0 0 0px 0px rgba(100,100,200,0.4)"}, 600)
           $('.navbar-nav>li>a ').animate({'color':'#FFFFFF'}, 300)
           mustShake = false;
 
