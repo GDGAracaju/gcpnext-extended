@@ -1,9 +1,8 @@
-{% if site.sections.schedule %}
 <section class="agenda" id="palestras">
 
     <div class="container">
         <div>
-            <div class='panel-container'>
+            <div class='panel-container' style='padding-top: 20px;'>
                 {% for day in site.schedule %}
                 <div id="{{day.day}}">
                     <h1>{{ day.name }}</h1>
@@ -43,5 +42,3 @@
     </div>
 
 </section>
-
-{% endif %}

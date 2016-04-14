@@ -31,8 +31,8 @@ sections:
   about: true
   c4p: false
   location: true
-  speakers: false
-  schedule: false
+  speakers: true
+  schedule: true
   sponsors: true
   partners: true
   contact: false
@@ -40,31 +40,31 @@ sections:
 
 # Organizers list
 organizers:
-  - 
+  -
     name: "GDG Aracaju"
     photo: "./img/partners/gdgaracaju.png"
     url: "http://site.gdgaracaju.com.br/"
     bio: ""
     company: ""
-  - 
+  -
     name: "Erick Mendonça"
     photo: "./img/speakers/erick_mendonca.jpg"
     url: "http://github.com/erickmendonca"
     bio: "Formando na Universidade Federal de Sergipe e possui experiência como desenvolvedor e analista de sistemas. Co-organizador do Google Developer Group Aracaju, busca compartilhar conhecimento e aperfeiçoar a comunidade local de desenvolvedores e empreendedores através de eventos técnicos e encontros descontraídos para incentivar o crescimento e a empatia da comunidade local."
     company: "UFS"
-  - 
+  -
     name: "Fernando Mendonça"
     photo: "./img/speakers/fernando.jpg"
     url: "http://github.com/erickmendonca"
     bio: ""
     company: ""
-  - 
+  -
     name: "Raphael Pantaleão"
     photo: "./img/speakers/raphael.jpg"
     url: "http://github.com/raphaelpanta"
     bio: ""
     company: ""
-  - 
+  -
     name: "Roberto Brandini"
     photo: "./img/speakers/roberto_brandini.jpg"
     url: "https://www.facebook.com/roberto.brandini"
@@ -73,144 +73,72 @@ organizers:
 
 # Speakers list
 speakers:
-  - 
-    name: "Breno Moura"
-    url: "https://github.com/basmoura"
-    photo: "./img/speakers/breno_moura.jpg"
-  - 
-    name: "Euler Neto"
-    photo: "./img/speakers/euler_neto.jpg"
+  -
+    name: "Dennison Souza"
     url: ""
-  - 
-    name: "Fernando Mendonça"
-    url: "https://github.com/fernandomalmeida"
-    photo: "./img/speakers/fernando.jpg"
-  - 
-    name: "Hugo Dória"
-    photo: "./img/speakers/hugo_doria.jpg"
-    url: "https://github.com/hdoria"
-  - 
-    name: "Ítalo Marcel"
-    photo: "./img/speakers/italo_marcel.jpg"
-    url: ""
-  - 
-    name: "Lucas Xavier"
-    photo: "./img/speakers/lucas_xavier.jpg"
-    url: ""
-  - 
-    name: "Ygor César"
-    photo: "./img/speakers/ygor.jpg"
-    url: ""
-    
+    photo: "./img/speakers/dennison_souza.jpg"
+    title: "Docker container engine"
+    details: "Docker permite você empacotar uma aplicação com todas as suas dependências em uma unidade de desenvolmento software padronizado. Dennisson Souza mostrará como Containers Docker engloba tudo que é preciso para rodar um software e garantir que o software rodará corretamente mesmo em diferentes ambientes."
 
 # Schedule
 schedule:
   -
-    day: "0204"
-    name: "02/04 Talks #2"
-    description: "Segundo dia de palestras, aberto à toda comunidade!"
-    url: "http://www.meetup.com/pt-BR/GDG-Aracaju/events/229623381/"
+    day: "3004"
+    name: "30/04 GCP Next Extended"
+    description: "O Google Cloud Platform NEXT foi o maior evento sobre a plataforma de computação em nuvem do Google. Houveram grandes anúncios para a plataforma, como o serviço de aprendizado de máquina e outros avanços gigantescos. Grandes empresas já usam a nuvem do Google: Spotify, Snapchat, Disney e Coca-cola são apenas alguns exemplos. Aqui no GDG Aracaju vamos nos reunir e fazer uma versão extendida do evento que rolou no último março em San Francisco, assistir a keynote, discutir as novidades e aprender mais com uma palestra local."
+    url: ""
     agenda:
       -
-        name: "Segurança no Android"
-        time: 
+        name: "Keynote: What's next for Cloud"
+        time:
           start: "14:00"
-          end: "15:00"
-        description: ""
-        speaker:
-          name: "Euler Neto"
-          photo: "./img/speakers/euler_neto.jpg"
-          url: ""
-      -
-        name: "Firebase e Android"
-        time: 
-          start: "15:00"
           end: "16:00"
         description: ""
         speaker:
-          name: "Ygor César"
-          photo: "./img/speakers/ygor.jpg"
+          name: "Euler Neto"
+          photo: ""
           url: ""
       -
-        name: "A confirmar :)"
-        time: 
+        name: "Intervalo e coffee-break"
+        time:
+          start: "16:00"
+          end: "16:30"
+        description: ""
+        speaker:
+          name: ""
+          photo: ""
+          url: ""
+      -
+        name: "Palestra: Docker Container Engine"
+        time:
           start: "16:30"
           end: "17:30"
         description: ""
         speaker:
-          name: "Ítalo Marcel"
-          photo: "./img/speakers/italo_marcel.jpg"
+          name: "Dennison Souza"
+          photo: "./img/speakers/dennison_souza.jpg"
           url: ""
-  - 
-    day: "1903"
-    name: "19/03 a 16/04"
-    description: "Android para Iniciantes"
-    agenda:
-      - 
-        name: "Curso e grupo de estudos"
-        time: 
-          start: "13:00"
-          end: "18:00"
+      -
+        name: "Palestra: Virtualização"
+        time:
+          start: "17:30"
+          end: "18:30"
         description: ""
         speaker:
-          name: "Facilitador: Italo Marcel"
+          name: "Roberto Brandini"
+          photo: "./img/speakers/roberto_brandini.jpg"
           url: ""
-          photo: "./img/speakers/italo_marcel.jpg"
-  - 
-    day: "1203"
-    name: "12/03 Talks #1"
-    description: "Abertura do Android Jam: palestras, inscrição para grupo de estudos e confraternização!"
-    agenda:
-      - 
-        name: "Abertura"
-        time: 
-          start: "14:00"
-          end: "14:30"
-        description: "Abertura do evento, credenciamento e apresentação do Android Study Jams 2016"
+      -
+        name: "Sorteio de Brindes e Encerramento"
+        time:
+          start: "18:30"
+          end: "18:30"
+        description: ""
         speaker:
-          name: "GDG Aracaju"
-          url: "http://site.gdgaracaju.com.br/"
-          photo: "./img/gdg.png"
-      - 
-        name: "Internet das Coisas e os Smartphones"
-        time: 
-          start: "14:30"
-          end: "15:30"
-        description: "Nesta palestra serão apresentados os conceitos de Internet das Coisas, algumas aplicações que podem se beneficiar com a Internet das Coisas e onde os smartphones podem se encaixar nessa aplicações."
-        speaker:
-          name: "Fernando Mendonça"
-          url: "https://github.com/fernandomalmeida"
-          photo: "./img/speakers/fernando.jpg"
-      - 
-        name: "Coffee-break"
-        time: 
-          start: "15:30"
-          end: "16:00"
-        description: "Pausa para o lanche, café e bate-papo"
-        speaker:
-          name: "GDG Aracaju"
-          url: "http://site.gdgaracaju.com.br/"
-          photo: "./img/gdg.png"
-      - 
-        name: "Folkes: Minerando dados no Instagram"
-        time: 
-          start: "16:00"
-          end: "17:00"
-        description: "Muita gente, mas muita gente mesmo tem conta em alguma rede social e o Instagram é uma das favoritas. Mas será que as pessoas sabem do que os dados que elas fornecem para a rede social de fotos é capaz de fazer? Nesse talk vou mostrar um pouco sobre como é legal manipular esses dados e quais informações eles podem nos retornar, por exemplo: o melhor horário de postar uma foto, o melhor dia da semana, quem mais curte suas fotos, se a suas fotos com filtros tem mais likes do que as sem filtros e por ai vamos :)"
-        speaker:
-          name: "Breno Moura"
-          url: "https://github.com/basmoura"
-          photo: "./img/speakers/breno_moura.jpg"
-      - 
-        name: "Como a Popcode constrói seus apps - Erros e Acertos"
-        time: 
-          start: "17:00"
-          end: "18:00"
-        description: "Veja como foi a nossa experiência construindo aplicativos: como trabalhamos, como atender 1 milhão de usuários e dicas do que fazer (e não fazer) na sua startup."
-        speaker:
-          name: "Hugo Dória"
-          photo: "./img/speakers/hugo_doria.jpg"
-          url: "https://github.com/hdoria"
+          name: ""
+          photo: ""
+          url: ""
+
 
 # List of Sponsors
 sponsors:
