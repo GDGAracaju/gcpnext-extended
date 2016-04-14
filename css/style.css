@@ -65,7 +65,7 @@ a:visited {
 }
 
 a.btn-danger {
-    background: #388E3C;
+    background: #607D8B;
     color: #FFFFFF;
     border: 0;
     border-radius: 3px;
@@ -73,7 +73,7 @@ a.btn-danger {
 }
 
 a.btn-danger:hover {
-    background: #CDDC39;
+    background: #CFD8DC;
     color: #212121;
 }
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -87,7 +87,7 @@ a.btn-danger:hover {
 }
 
 .navbar {
-    background-color: #388E3C;
+    background-color: #607D8B;
     border-bottom: none;
     font-size: 32px;
     box-shadow: 0 0 0px #000000;
@@ -336,7 +336,7 @@ section.main {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .localizacao {
-    background-color: #CDDC39;
+    background-color: #607D8B;
     padding: 0 0 60px;
     overflow: hidden;
     min-height: 350px;
@@ -383,14 +383,14 @@ section.main {
 
 .organizacao {
     color: #FFFFFF;
-    background-color: #39DC71;
+    background-color: #CFD8DC;
     min-height: 330px;
     padding-bottom: 44px;
 }
 
 .palestrantes {
     color: #FFFFFF;
-    background-color: #1C6D38;
+    background-color: #90A4AE;
     min-height: 330px;
     padding-bottom: 44px;
 }
@@ -401,11 +401,12 @@ section.main {
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
 
 .parceiros {
-    color: #333;
-    background-color: #F5F5F5;
+    color: #FFFFFF;
+    background-color: #607D8B;
     min-height: 330px;
     padding-bottom: 44px;
 }
+
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 *
 * PATROCINADORES SECTION
@@ -414,7 +415,7 @@ section.main {
 
 .patrocinadores {
     color: #FFFFFF;
-    background-color: #4CAF50;
+    background-color: #78909C;
     min-height: 330px;
     padding-bottom: 44px;
 }
