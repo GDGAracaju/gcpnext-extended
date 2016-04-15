@@ -31,7 +31,7 @@ sections:
   about: true
   c4p: false
   location: true
-  speakers: true
+  speakers: false
   schedule: true
   sponsors: true
   partners: true
@@ -78,7 +78,7 @@ speakers:
     url: ""
     photo: "./img/speakers/dennison_souza.jpg"
     title: "Docker container engine"
-    details: "Docker permite você empacotar uma aplicação com todas as suas dependências em uma unidade de desenvolmento software padronizado. Dennisson Souza mostrará como Containers Docker engloba tudo que é preciso para rodar um software e garantir que o software rodará corretamente mesmo em diferentes ambientes."
+    details: ""
 
 # Schedule
 schedule:
@@ -95,7 +95,7 @@ schedule:
           end: "16:00"
         description: ""
         speaker:
-          name: "Euler Neto"
+          name: ""
           photo: ""
           url: ""
       -
@@ -113,7 +113,7 @@ schedule:
         time:
           start: "16:30"
           end: "17:30"
-        description: ""
+        description: "Docker permite você empacotar uma aplicação com todas as suas dependências em uma unidade de desenvolmento software padronizado. Dennisson Souza mostrará como Containers Docker engloba tudo que é preciso para rodar um software e garantir que o software rodará corretamente mesmo em diferentes ambientes."
         speaker:
           name: "Dennison Souza"
           photo: "./img/speakers/dennison_souza.jpg"
@@ -123,7 +123,7 @@ schedule:
         time:
           start: "17:30"
           end: "18:30"
-        description: ""
+        description: "Virtualização é importante para qualquer setor de TI. O poder que as máquinas virtuais trazem são muito benéficas as empresas, entre elas facilidades de escalabilidade, configuração, gerenciamento e entre outros. Roberto Brandini nos mostrará como ele usa virtualização no dia a dia de sa empresa, a DP Sistemas."
         speaker:
           name: "Roberto Brandini"
           photo: "./img/speakers/roberto_brandini.jpg"
