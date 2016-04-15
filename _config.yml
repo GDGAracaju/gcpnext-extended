@@ -21,7 +21,7 @@ site:
   googleanalytics: "UA-49492619-1"
   images:
     cover: "./img/og_image.png"
-    facebook: "http://android.gdgaracaju.com.br/img/og_image.png"
+    facebook: "http://gcp.gdgaracaju.com.br/img/og_image.png"
 
 subscribe_text: "Inscreva-se no Meetup!"
 subscribe_url: "http://www.meetup.com/pt-BR/GDG-Aracaju/events/229951519/"
