@@ -85,7 +85,7 @@ schedule:
   -
     day: "3004"
     name: "30/04 GCP Next Extended"
-    description: "O Google Cloud Platform NEXT foi o maior evento sobre a plataforma de computação em nuvem do Google. Houveram grandes anúncios para a plataforma, como o serviço de aprendizado de máquina e outros avanços gigantescos. Grandes empresas já usam a nuvem do Google: Spotify, Snapchat, Disney e Coca-cola são apenas alguns exemplos. Aqui no GDG Aracaju vamos nos reunir e fazer uma versão extendida do evento que rolou no último março em San Francisco, assistir a keynote, discutir as novidades e aprender mais com uma palestra local."
+    description: ""
     url: ""
     agenda:
       -
@@ -123,7 +123,7 @@ schedule:
         time:
           start: "17:30"
           end: "18:30"
-        description: "Virtualização é importante para qualquer setor de TI. O poder que as máquinas virtuais trazem são muito benéficas as empresas, entre elas facilidades de escalabilidade, configuração, gerenciamento e entre outros. Roberto Brandini nos mostrará como ele usa virtualização no dia a dia de sa empresa, a DP Sistemas."
+        description: "Virtualização é importante para qualquer setor de TI. O poder que as máquinas virtuais trazem é muito benéfico para as empresas, como facilidades de escalabilidade, configuração, gerenciamento, entre outros. Roberto Brandini nos mostrará como ele usa virtualização no dia a dia de sua empresa, a DP Sistemas."
         speaker:
           name: "Roberto Brandini"
           photo: "./img/speakers/roberto_brandini.jpg"
@@ -132,7 +132,7 @@ schedule:
         name: "Sorteio de Brindes e Encerramento"
         time:
           start: "18:30"
-          end: "18:30"
+          end: "19:00"
         description: ""
         speaker:
           name: ""
