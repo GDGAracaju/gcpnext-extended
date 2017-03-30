@@ -89,62 +89,100 @@ speakers:
 # Schedule
 schedule:
   -
-    day: "3004"
-    name: "30/04 GCP Next Extended"
+    day: "2904"
+    name: "29/04 GCP Next Extended '17 Aracaju - Horário provisório"
     description: ""
     url: ""
     agenda:
       -
-        name: "Keynote: What's next for Cloud"
+        name: "Google Cloud Next: O que Temos Agora?"
         time:
-          start: "14:00"
-          end: "16:00"
+          start: "8:30"
+          end: "09:30"
+        description: ""
+        speaker:
+          name: "Jéssica Costa"
+          photo: "./img/speakers/jessica_costa.jpg"
+          url: ""
+      -
+        name: "Escalabilidade na Núvem Através de Microserviços"
+        time:
+          start: "9:30"
+          end: "11:00"
+        description: ""
+        speaker:
+          name: "Raphael Pantaleão e Diego Melo"
+          photo: ""
+          url: ""
+      -
+        name: "Filosofia Cloud na Gestão de Equipes e Desenvolvimento de Projetos. Case: Laboratório 99"
+        time:
+          start: "11:00"
+          end: "12:00"
+        description: ""
+        speaker:
+          name: "Daniel Caldas"
+          photo: "./img/speakers/daniel_caldas.jpg"
+          url: ""
+      -
+        name: "Almoço"
+        time:
+          start: "12:00"
+          end: "13:00"
         description: ""
         speaker:
           name: ""
           photo: ""
           url: ""
       -
-        name: "Intervalo e coffee-break"
+        name: "Google for Students (a definir)"
         time:
-          start: "16:00"
-          end: "16:30"
+          start: "13:00"
+          end: "13:50"
+        description: ""
+        speaker:
+          name: "Domingos"
+          photo: ""
+          url: ""
+      -
+        name: "Tá Pegando Fogo Bicho: Como modelar seu projeto com Firebase"
+        time:
+          start: "13:50"
+          end: "14:40"
+        description: ""
+        speaker:
+          name: "Eduardo Borges"
+          photo: "./img/speakers/eduardo_borges.jpg"
+      -
+        name: "Novos desafios para as aplicações na utilização de Cloud Computing e IoT (Internet of Things)"
+        time:
+          start: "14:40"
+          end: "15:30"
+        description: ""
+        speaker:
+          name: "Mayka"
+          photo: "./img/speakers/mayka.jpg"
+          url: ""
+      -
+        name: "Coffee Break"
+        time:
+          start: "15:30"
+          end: "15:45"
+        description: ""
+        speaker:
+          name: "Alline"
+          photo: "./img/speakers/alline.jpg"
+          url: ""
+      -
+        name: "Encerramento"
+        time:
+          start: "16:45"
+          end: "17:00"
         description: ""
         speaker:
           name: ""
           photo: ""
           url: ""
-      -
-        name: "Palestra: Docker Container Engine"
-        time:
-          start: "16:30"
-          end: "17:30"
-        description: "Docker permite você empacotar uma aplicação com todas as suas dependências em uma unidade de desenvolmento software padronizado. Dennisson Souza mostrará como Containers Docker engloba tudo que é preciso para rodar um software e garantir que o software rodará corretamente mesmo em diferentes ambientes."
-        speaker:
-          name: "Dennison Souza"
-          photo: "./img/speakers/dennison_souza.jpg"
-          url: ""
-      -
-        name: "Palestra: Virtualização"
-        time:
-          start: "17:30"
-          end: "18:30"
-        description: "Virtualização é importante para qualquer setor de TI. O poder que as máquinas virtuais trazem é muito benéfico para as empresas, como facilidades de escalabilidade, configuração, gerenciamento, entre outros. Roberto Brandini nos mostrará como ele usa virtualização no dia a dia de sua empresa, a DP Sistemas."
-        speaker:
-          name: "Roberto Brandini"
-          photo: "./img/speakers/roberto_brandini.jpg"
-          url: ""
-      -
-        name: "Sorteio de Brindes e Encerramento"
-        time:
-          start: "18:30"
-          end: "19:00"
-        description: ""
-        speaker:
-          name: ""
-          photo: ""
-          url: ""
-
 
 # List of Sponsors
 sponsors:
