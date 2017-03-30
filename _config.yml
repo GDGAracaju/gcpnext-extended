@@ -5,12 +5,12 @@ permalink: /:title.html
 
 # Conference info
 conf:
-  name: "GCP Next Extended"
-  description: "Google Cloud Platform NEXT Extended"
-  date: "30 de abril de 2016"
+  name: "GCP Next Extended '17'"
+  description: "Google Cloud Platform NEXT Extended 2017"
+  date: "29 de abril de 2017"
   price: "Gratuito!"
-  address: "Travessa Sargento Duque, 85 - Bairro Industrial"
-  venue: "FANESE - Faculdade de Administração e Negócios de Sergipe"
+  address: "Av. Murilo Dantas, 300 - Farolândia, Aracaju - SE, 49032-490"
+  venue: "UNIT Farolândia"
   city: "Aracaju, Sergipe"
 
 # Site info
@@ -23,8 +23,8 @@ site:
     cover: "./img/og_image.png"
     facebook: "http://gcp.gdgaracaju.com.br/img/og_image.png"
 
-subscribe_text: "Inscreva-se no Meetup!"
-subscribe_url: "http://www.meetup.com/pt-BR/GDG-Aracaju/events/229951519/"
+subscribe_text: ""
+subscribe_url: ""
 
 # Active sections on the website
 sections:
@@ -33,7 +33,7 @@ sections:
   location: true
   speakers: false
   schedule: true
-  sponsors: true
+  sponsors: false
   partners: true
   contact: false
   tickets: false
@@ -50,11 +50,11 @@ organizers:
     name: "Erick Mendonça"
     photo: "./img/speakers/erick_mendonca.jpg"
     url: "http://github.com/erickmendonca"
-    bio: "Formando na Universidade Federal de Sergipe e possui experiência como desenvolvedor e analista de sistemas. Co-organizador do Google Developer Group Aracaju, busca compartilhar conhecimento e aperfeiçoar a comunidade local de desenvolvedores e empreendedores através de eventos técnicos e encontros descontraídos para incentivar o crescimento e a empatia da comunidade local."
+    bio: ""
     company: "UFS"
   -
-    name: "Fernando Mendonça"
-    photo: "./img/speakers/fernando.jpg"
+    name: "Jéssica Costa"
+    photo: "./img/speakers/jessica_costa.jpg"
     url: "http://github.com/erickmendonca"
     bio: ""
     company: ""
@@ -68,6 +68,12 @@ organizers:
     name: "Roberto Brandini"
     photo: "./img/speakers/roberto_brandini.jpg"
     url: "https://www.facebook.com/roberto.brandini"
+    bio: ""
+    company: ""
+  -
+    name: "Ítalo Marcel"
+    photo: "./img/speakers/italo_marcel.jpg"
+    url: "https://www.facebook.com/italo.marcel"
     bio: ""
     company: ""
 
@@ -151,18 +157,9 @@ sponsors:
 # List of Partners
 partners:
   -
-    name: "CajuValley"
-    logo: "./img/partners/cajuvalley.png"
-    url: "https://www.facebook.com/cajuvalley"
-  -
-    name: "DP Sistemas"
-    logo: "./img/partners/dpsistemas.png"
-    url: "http://www2.dpsistemas.com.br/"
-  -
-    name: "Fanese"
-    logo: "./img/partners/fanese.png"
-    url: "http://portal.fanese.edu.br/"
-
+    name: "UNIT"
+    logo: "./img/partners/unit.jpg"
+    url: "https://www.unit.br"
 
 # About section
 about_section:
