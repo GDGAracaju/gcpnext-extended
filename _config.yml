@@ -112,7 +112,7 @@ schedule:
         description: ""
         speaker:
           name: "Raphael Pantaleão e Diego Melo"
-          photo: ""
+          photo: "./img/speakers/raphael_diego.jpg"
           url: ""
       -
         name: "Filosofia Cloud na Gestão de Equipes e Desenvolvimento de Projetos. Case: Laboratório 99"
