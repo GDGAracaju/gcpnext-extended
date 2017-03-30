@@ -74,10 +74,10 @@ organizers:
 # Speakers list
 speakers:
   -
-    name: "Dennison Souza"
+    name: ""
     url: ""
-    photo: "./img/speakers/dennison_souza.jpg"
-    title: "Docker container engine"
+    photo: ""
+    title: ""
     details: ""
 
 # Schedule
@@ -93,7 +93,7 @@ schedule:
         time:
           start: "8:30"
           end: "09:30"
-        description: ""
+        description: "Resumo das novidades anunciadas na Google Cloud Next '17'"
         speaker:
           name: "Jéssica Costa"
           photo: "./img/speakers/jessica_costa.jpg"
@@ -103,7 +103,7 @@ schedule:
         time:
           start: "9:30"
           end: "11:00"
-        description: ""
+        description: "Visão geral de Microserviços e como arquitetar sua aplicação para a núvem."
         speaker:
           name: "Raphael Pantaleão e Diego Melo"
           photo: "./img/speakers/raphael_diego.jpg"
@@ -113,7 +113,7 @@ schedule:
         time:
           start: "11:00"
           end: "12:00"
-        description: ""
+        description: "Muito mais que uma palestra técnica, o 99lab irá compartilhar como aplica toda a filosofia Cloud para a gestão de seus projetos e o desenvolvimento dos projetos que a empresa se envolve. À partir de uma metodologia desenvolvida pelo 99lab, a empresa une pessoas com diferentes habilidades de todo o Brasil pra fazer jogos acontecerem."
         speaker:
           name: "Daniel Caldas"
           photo: "./img/speakers/daniel_caldas.jpg"
@@ -135,7 +135,7 @@ schedule:
           end: "13:50"
         description: ""
         speaker:
-          name: "Domingos"
+          name: ""
           photo: ""
           url: ""
       -
@@ -143,7 +143,7 @@ schedule:
         time:
           start: "13:50"
           end: "14:40"
-        description: ""
+        description: "O Firebase veio pra ficar e é incrível no que se propõe fazer. Porém existem alguns detalhes que as pessoas não te contaram que pode ser decisivos ao construir seu projeto. É justamente isso que vamos conversar: contras e prós, funcionalidades desconhecidas, tratamento de transações, técnicas de arquitetura de dados."
         speaker:
           name: "Eduardo Borges"
           photo: "./img/speakers/eduardo_borges.jpg"
@@ -152,9 +152,9 @@ schedule:
         time:
           start: "14:40"
           end: "15:30"
-        description: ""
+        description: "A palestra visa esclarecer quais são os principais desafios encontrados hoje para que as aplicações possam oferecer os serviços ofertados utilizando a Cloud Computing e Internet of Things. A IoT se integra a Cloud e Big Data aumentando as estratégias de mobilidade e com isso surgindo questões como segurança e o volume dos dados gerados."
         speaker:
-          name: "Mayka"
+          name: "Mayka de Souza Lima"
           photo: "./img/speakers/mayka.jpg"
           url: ""
       -
@@ -164,7 +164,17 @@ schedule:
           end: "15:45"
         description: ""
         speaker:
-          name: "Alline"
+          name: ""
+          photo: ""
+          url: ""
+      -
+        name: "Alline Oliveira"
+        time:
+          start: "15:45"
+          end: "16:45"
+        description: "Papo aberto com Alline Oliveira, sobre Google Cloud, Google Developer Experts e Outros."
+        speaker:
+          name: "Alline Oliveira"
           photo: "./img/speakers/alline.jpg"
           url: ""
       -
