@@ -76,6 +76,19 @@ a.btn-danger:hover {
     background: #CFD8DC;
     color: #212121;
 }
+
+a.btn-success {
+    background: #FF6C00;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 400;
+}
+
+a.btn-success:hover {
+    background: #FFB74D;
+    color: #212121;
+}
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 *
 * NAVBAR

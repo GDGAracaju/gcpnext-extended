@@ -23,8 +23,8 @@ site:
     cover: "./img/og_image.png"
     facebook: "http://gcp.gdgaracaju.com.br/img/og_image.png"
 
-subscribe_text: ""
-subscribe_url: ""
+subscribe_text: "Inscreva-se"
+subscribe_url: "https://www.sympla.com.br/google-cloud-next-extended-aracaju__131765"
 
 # Active sections on the website
 sections:
@@ -99,11 +99,11 @@ schedule:
           photo: "./img/speakers/jessica_costa.jpg"
           url: ""
       -
-        name: "Escalabilidade na Núvem Através de Microserviços"
+        name: "Escalabilidade na Nuvem Através de Microserviços"
         time:
           start: "9:30"
           end: "11:00"
-        description: "Visão geral de Microserviços e como arquitetar sua aplicação para a núvem."
+        description: "Visão geral de Microserviços e como arquitetar sua aplicação para a nuvem."
         speaker:
           name: "Raphael Pantaleão e Diego Melo"
           photo: "./img/speakers/raphael_diego.jpg"
