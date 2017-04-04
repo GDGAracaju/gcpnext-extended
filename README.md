@@ -1,1 +1,1 @@
-# Google Cloud Platform NEXT 2017 Extended Aracaju
+# Google Cloud Platform NEXT 2017 Recap Aracaju
