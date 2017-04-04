@@ -70,6 +70,24 @@ organizers:
     url: "https://www.facebook.com/italo.marcel"
     bio: ""
     company: ""
+  -
+    name: "Ana Costa"
+    photo: "./img/speakers/ana.jpg"
+    url: "https://www.facebook.com/LoiraMania"
+    bio: ""
+    company: ""
+  -
+    name: "Danielle Ismerim"
+    photo: "./img/speakers/danielle.jpg"
+    url: "https://www.facebook.com/danyismerim"
+    bio: ""
+    company: ""
+  -
+    name: "Milene Vieira"
+    photo: "./img/speakers/milene.jpg"
+    url: "https://www.facebook.com/milenevii"
+    bio: ""
+    company: ""
 
 # Speakers list
 speakers:
