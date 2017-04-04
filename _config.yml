@@ -5,7 +5,7 @@ permalink: /:title.html
 
 # Conference info
 conf:
-  name: "GCP Next Extended '17'"
+  name: "GCP Next Extended '17"
   description: "Google Cloud Platform NEXT Extended 2017"
   date: "29 de abril de 2017"
   price: "Gratuito!"
@@ -195,12 +195,19 @@ sponsors:
     logo: "./img/partners/gd.jpg"
     url: "http://developers.google.com/"
 
-
 # List of Partners
 partners:
   -
     name: "UNIT"
     logo: "./img/partners/unit.jpg"
+    url: "https://www.unit.br"
+  -
+    name: "CIO-SE"
+    logo: "./img/partners/ciose.jpg"
+    url: "https://www.unit.br"
+  -
+    name: "Sergipetec"
+    logo: "./img/partners/sergipetec.jpg"
     url: "https://www.unit.br"
 
 # About section
