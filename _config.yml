@@ -222,11 +222,11 @@ partners:
   -
     name: "CIO-SE"
     logo: "./img/partners/ciose.jpg"
-    url: "https://www.unit.br"
+    url: "http://cio-se.org.br/"
   -
     name: "Sergipetec"
     logo: "./img/partners/sergipetec.jpg"
-    url: "https://www.unit.br"
+    url: "http://www.sergipetec.se.gov.br/"
 
 # About section
 about_section:
