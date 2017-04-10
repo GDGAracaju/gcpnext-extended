@@ -127,14 +127,14 @@ schedule:
           photo: "./img/speakers/raphael_diego.jpg"
           url: ""
       -
-        name: "Filosofia Cloud na Gestão de Equipes e Desenvolvimento de Projetos. Case: Laboratório 99"
+        name: "Google e Grupo Tiradentes - Inovando na Educação"
         time:
           start: "11:00"
           end: "12:00"
-        description: "Muito mais que uma palestra técnica, o 99lab irá compartilhar como aplica toda a filosofia Cloud para a gestão de seus projetos e o desenvolvimento dos projetos que a empresa se envolve. À partir de uma metodologia desenvolvida pelo 99lab, a empresa une pessoas com diferentes habilidades de todo o Brasil pra fazer jogos acontecerem."
+        description: "Apresentação do maior Case do Google for Education e Chromebook do Brasil. Tiradentes Digital - Como o Grupo Tiradentes está usando novas metodologias, tecnologia e a parceria com o Google para inovar na Educação no Nordeste."
         speaker:
-          name: "Daniel Caldas"
-          photo: "./img/speakers/daniel_caldas.jpg"
+          name: "Domingos Sávio Alcântara Machado"
+          photo: "./img/speakers/domingos.jpg"
           url: ""
       -
         name: "Almoço"
@@ -147,14 +147,14 @@ schedule:
           photo: ""
           url: ""
       -
-        name: "Google for Students (a definir)"
+        name: "Filosofia Cloud na Gestão de Equipes e Desenvolvimento de Projetos. Case: Laboratório 99"
         time:
           start: "13:00"
           end: "13:50"
-        description: ""
+        description: "Muito mais que uma palestra técnica, o 99lab irá compartilhar como aplica toda a filosofia Cloud para a gestão de seus projetos e o desenvolvimento dos projetos que a empresa se envolve. À partir de uma metodologia desenvolvida pelo 99lab, a empresa une pessoas com diferentes habilidades de todo o Brasil pra fazer jogos acontecerem."
         speaker:
-          name: ""
-          photo: ""
+          name: "Daniel Caldas"
+          photo: "./img/speakers/daniel_caldas.jpg"
           url: ""
       -
         name: "Tá Pegando Fogo Bicho: Como modelar seu projeto com Firebase"
